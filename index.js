@@ -1,6 +1,6 @@
 const iconv = require('iconv-lite');
 const TelegramBot = require('node-telegram-bot-api');
-const token = process.argv[2]
+const token = '6284973334:AAF8GkXRnkOj1VjZmTP3zsItb-4k2dBxvKk'
 const bot = new TelegramBot(token, { polling: true });
 const fs = require('fs');
 const content = fs.readFileSync('info.json')
